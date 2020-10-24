@@ -3,7 +3,7 @@ from random import randrange
 
 car_algorithm = cv2.CascadeClassifier('cars.xml')
 pedestrian_algorithm = cv2.CascadeClassifier('pedestrian_algo.xml')
-car = cv2.VideoCapture('pedos.mp4')
+car = cv2.VideoCapture('video.mp4')
 key = cv2.waitKey(2000)
 while True:
 
