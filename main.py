@@ -1,5 +1,4 @@
 import cv2
-from random import randrange
 
 car_algorithm = cv2.CascadeClassifier('cars.xml')
 pedestrian_algorithm = cv2.CascadeClassifier('pedestrian_algo.xml')
